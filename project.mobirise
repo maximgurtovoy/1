@@ -31,7 +31,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 348,
+    "uniqCompNum": 356,
     "versionPublish": "4.5.2",
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
@@ -40,7 +40,9 @@
     "favicon": "@PROJECT_PATH@/assets/images/photo-2017-11-30-20-08-45-128x139.png",
     "noImageResize": "",
     "cookiesAlert": "",
-    "google-analytics": ""
+    "google-analytics": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -63,7 +65,7 @@
             "collapsed": true,
             "transparent": false,
             "bgColor": "#fcfbf7",
-            "fontSize": "1.15",
+            "fontSize": "1.25",
             "fontName": {
               "name": "Montserrat",
               "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
@@ -72,7 +74,7 @@
             "fontColor": "#2e2e2e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -95,10 +97,10 @@
               "font-family": "'Montserrat', sans-serif"
             },
             ".link": {
-              "font-size": "1.15rem"
+              "font-size": "1.25rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.245rem"
+              "font-size": "1.354rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -217,14 +219,77 @@
           "_anchor": "header3-5a"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#3394c1"
+          },
+          "title": "",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-9p"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Мы предлагаем фурнитуру для пластиковых окон",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-9q"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#3394c1"
+          },
+          "title": "",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-9r"
+        },
+        {
           "_params": {
             "showImages": true,
             "showTitles": false,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": true,
-            "paddingTop": "1",
-            "paddingBottom": 2,
+            "showButtons": false,
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "columns": "3",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -256,9 +321,10 @@
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "",
+              "link": "page31.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "media3": {
@@ -267,9 +333,10 @@
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "",
+              "link": "page28.html",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "media4": {
@@ -301,7 +368,7 @@
           "caption1": "​МАСО производит фурнитуру на трех австрийских предприятиях и реализует ее в более чем 40 странах мира. В 15 странах компания имеет собственные филиалы. В цепочке от разработки продукта до его реализации задействованы более 2000 сотрудников компани<br><br><br>",
           "title2": "Responsive",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "&nbsp;Мы решили создать свой бренд на рынке оконных систем. Главное отличие ILMARI - сбалансированность, которая позволяет предлагать потребителям качественный, функциональный и эстетичный продукт по доступной цене. <br><br><br>",
+          "caption2": "&nbsp;Имея опыт работы в производстве пластиковых окон и ПВХ профиля с 1995 г. Мы решили создать свой бренд на рынке оконных систем. Главное отличие ILMARI - сбалансированность, которая позволяет предлагать потребителям качественный, функциональный и эстетичный продукт по доступной цене. <br><br><br>",
           "title3": "Web Fonts",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "AXOR  – это динамично развивающаяся международная компания, имеющая собственные производственные мощности, обеспечивающие полный цикл производства оконно-дверной фурнитуры.  современный завод оснащен передовым высокотехнологичным оборудованием и многоуровневой системой контроля качества, охватывающей каждый этап производства.",
@@ -314,9 +381,9 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Каталог продукции</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Каталог продукции</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Каталог продукции</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -325,6 +392,107 @@
           ],
           "_name": "features3",
           "_anchor": "features3-9n"
+        },
+        {
+          "_params": {
+            "showImages": false,
+            "showTitles": false,
+            "showSubtitles": false,
+            "ShowTexts": false,
+            "showButtons": true,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/table.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"page29.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Каталог продукции</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"page31.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Каталог продукции</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"page28.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Каталог продукции</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-9s"
         },
         {
           "_styles": {
@@ -369,7 +537,7 @@
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-4y"
+          "_anchor": "header3-9t"
         },
         {
           "_params": {
@@ -426,7 +594,7 @@
               "color": "#232323"
             },
             ".mbr-section-title": {
-              "font-size": "16px"
+              "font-size": "20px"
             }
           },
           "_anchor": "form1-9i"
@@ -577,7 +745,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "О нас",
-        "order": 25
+        "order": 9
       },
       "components": [
         {
@@ -682,7 +850,7 @@
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
-            "fontSize": "1.15",
+            "fontSize": "1.25",
             "fontName": {
               "name": "Montserrat",
               "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
@@ -691,7 +859,7 @@
             "fontColor": "#2e2e2e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -949,7 +1117,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "MULTI ZERO для абсолютной безбарьерной среды",
-        "order": 20
+        "order": 7
       },
       "components": [
         {
@@ -1034,7 +1202,7 @@
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
-            "fontSize": "1.15",
+            "fontSize": "1.25",
             "fontName": {
               "name": "Montserrat",
               "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
@@ -1043,7 +1211,7 @@
             "fontColor": "#2e2e2e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1214,7 +1382,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "MULTI POWER",
-        "order": 19
+        "order": 6
       },
       "components": [
         {
@@ -1227,7 +1395,7 @@
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
-            "fontSize": "1.15",
+            "fontSize": "1.25",
             "fontName": {
               "name": "Montserrat",
               "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
@@ -1236,7 +1404,7 @@
             "fontColor": "#2e2e2e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1499,7 +1667,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Новинки подъемно-сдвижной фурнитуры",
-        "order": 18
+        "order": 5
       },
       "components": [
         {
@@ -1512,7 +1680,7 @@
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
-            "fontSize": "1.15",
+            "fontSize": "1.25",
             "fontName": {
               "name": "Montserrat",
               "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
@@ -1521,7 +1689,7 @@
             "fontColor": "#2e2e2e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1897,7 +2065,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "axor",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1910,7 +2078,7 @@
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
-            "fontSize": "1.15",
+            "fontSize": "1.25",
             "fontName": {
               "name": "Montserrat",
               "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
@@ -1919,7 +2087,7 @@
             "fontColor": "#2e2e2e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -2356,7 +2524,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Maco",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -2369,7 +2537,7 @@
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
-            "fontSize": "1.15",
+            "fontSize": "1.25",
             "fontName": {
               "name": "Montserrat",
               "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
@@ -2378,7 +2546,7 @@
             "fontColor": "#2e2e2e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -2908,7 +3076,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "EMOTION Оконные ручки",
-        "order": 22
+        "order": 8
       },
       "components": [
         {
@@ -3126,7 +3294,7 @@
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
-            "fontSize": "1.15",
+            "fontSize": "1.25",
             "fontName": {
               "name": "Montserrat",
               "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
@@ -3135,7 +3303,7 @@
             "fontColor": "#2e2e2e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -3306,7 +3474,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "ilmari",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -3319,7 +3487,7 @@
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
-            "fontSize": "1.15",
+            "fontSize": "1.25",
             "fontName": {
               "name": "Montserrat",
               "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
@@ -3328,7 +3496,7 @@
             "fontColor": "#2e2e2e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -3648,6 +3816,158 @@
           ],
           "_name": "header3",
           "_anchor": "header3-8r"
+        }
+      ]
+    },
+    "page10.html": {
+      "settings": {
+        "meta_descr": "Web Creator Description",
+        "title": "Page 10",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fcfbf7",
+            "fontSize": "1.25",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#2e2e2e",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">КАТАЛОГ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page28.html\">AXOR INDUSTRY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page29.html\" aria-expanded=\"false\">Группа компаний МАСО</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page31.html\" aria-expanded=\"false\"> ILMARI</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">О НАС</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#2e2e2e"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#2e2e2e"
+            },
+            ".link, .dropdown-item": {
+              "color": "#2e2e2e",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#eee8d2"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f8f5ec!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fcfbf7"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#2e2e2e",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#7e9b9f!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/photo-2017-11-30-20-08-45-117x128.jpg",
+              "height": 128,
+              "alt": "komplekt21",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": "",
+              "color": "",
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">КОМПЛЕКТ21</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-9u"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/photo-2017-11-30-20-08-45-128x139.jpg",
+              "width": 128,
+              "active": true,
+              "link": "index.html",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Адрес</b></span></font><br>Автозаправочный пр., 28, Чебоксары, Чувашская Респ., 428022<br><br>",
+          "text2": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Контакты</b></span></font><br>почта; komplect21@yandex.ru<br>телефон: +7-909-302-38-59",
+          "text3": "<br><br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            },
+            "SPAN": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "contacts1-9v"
         }
       ]
     }
