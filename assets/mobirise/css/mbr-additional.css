@@ -1383,11 +1383,10 @@ body {
 }
 .cid-rfrt31vyP9 {
   background: #de814a;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 .cid-rfrt31vyP9 .image-block {
   margin: auto;
+  width: 100% !important;
 }
 .cid-rfrt31vyP9 .mbr-figure {
   margin: 0 auto;
